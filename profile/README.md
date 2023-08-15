@@ -4,7 +4,7 @@
 
 직접 학교 내 스포츠 시설 예약 및 커뮤티니 시스템을 직접 구현 하였습니다.   
 
-<br><br>
+<br>
 
 ## 🧑‍🤝‍🧑 팀원 소개
 
@@ -13,6 +13,7 @@
 |                                                                 **Front-End(Android)**                                                                 |                                                                 **Front-End(React)**                                                                 |                                                                  **Back-End(Spring)**                                                                  |     
 | [김용혁](https://github.com/younghyeok-k) |   [이준희](https://github.com/juni0914)  |   [조성진](https://github.com/Jorados)     |                 
 
+<br>
 
 ## 🛠️ 메인 기술 스택     
 
@@ -45,17 +46,15 @@
 <div>
 <br/>
 
-## 🗂️ Architecture
+## 🗂️ System Architecture
 
 ![KakaoTalk_20230808_164819868](https://github.com/GNU-SPORTS/.github/assets/100845256/434cc0e9-2248-48e7-b0d8-e150d23f657f)
    
-## 💾 ERD 구조
+## 💾 ERD Structure
 
 ![image](https://github.com/GNU-SPORTS/.github/assets/100845256/26e09a3f-76dd-4e2a-abf1-07066e7d0606) 
 
-## 📱Demo
-
-## 앱
+## 📱Demo - App
 
 ### 로고,로그인,예약 홈,예약 화면
 | 로고 | 로그인 | 예약 홈 | 예약 화면 |
@@ -82,7 +81,7 @@
 | ------------ | ------------- |------------- |
 | ![Screenshot_20230814-203937_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/d841e47d-5eaf-4b90-bb64-e5c92975fc66)| ![Screenshot_20230814-203752_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/0ea45a27-b3a4-4726-be21-db0ab0d8f5fd)|![Screenshot_20230814-204112_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/6ce83cf6-3425-4bd2-9127-d285ffe29067)|
 
-## 웹
+## 📱Demo - Web
 
 ### 로그인,회원가입
 | 로그인 | 회원가입 |
