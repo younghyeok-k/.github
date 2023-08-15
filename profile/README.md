@@ -52,7 +52,8 @@
    
 ## 💾 ERD Structure
 
-![image](https://github.com/GNU-SPORTS/.github/assets/100845256/26e09a3f-76dd-4e2a-abf1-07066e7d0606) 
+![image](https://github.com/GNU-SPORTS/.github/assets/100845256/8c3af6a8-6db5-4735-bf0c-12fc52039ad3)
+
 
 ## 📱Demo - App
 
