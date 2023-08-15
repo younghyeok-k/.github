@@ -19,10 +19,11 @@
 
 ### Front-End-Web 
 <div>
-	<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
-	<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+	<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+	<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+	<img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>
+	<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+	<img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
 	<br>
 </div>
 
@@ -37,12 +38,12 @@
 
 
 ### Production & Deploy
-<img src="https://img.shields.io/badge/aws-232F3E?style=flat-square&logo=amazonaws&logoColor=white">
+<img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
 
 ### Collaboration tool
 <div>
-    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>   
+    <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
 <div>
 <br/>
 
@@ -81,7 +82,7 @@
 | ------------ | ------------- |------------- |
 | ![Screenshot_20230814-203937_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/d841e47d-5eaf-4b90-bb64-e5c92975fc66)| ![Screenshot_20230814-203752_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/0ea45a27-b3a4-4726-be21-db0ab0d8f5fd)|![Screenshot_20230814-204112_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/6ce83cf6-3425-4bd2-9127-d285ffe29067)|
 
-## 📱Demo - Web
+## 🖥Demo - Web
 
 ### 로그인,회원가입
 | 로그인 | 회원가입 |
