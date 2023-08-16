@@ -7,8 +7,7 @@
 <br>
 
 ## 🧑‍🤝‍🧑 팀원 소개
-
-| <img src =https://user-images.githubusercontent.com/67897318/209688971-49212507-71b7-4551-9985-8565d31d24a4.png width="230" height="200"> | <img src =https://user-images.githubusercontent.com/49369306/195608027-5633bd06-1c29-4916-bf75-65567de3b2a5.png width="200" height="165"> | <img src =https://user-images.githubusercontent.com/67897318/209684714-883aaf83-167c-4f41-90f0-4d9df814b6e1.jpeg width="200" height="165"> |
+| <img src =https://user-images.githubusercontent.com/67897318/209688971-49212507-71b7-4551-9985-8565d31d24a4.png width="230" height="200"> | <img src =https://user-images.githubusercontent.com/49369306/195608027-5633bd06-1c29-4916-bf75-65567de3b2a5.png width="200" height="165"> | <img src =https://github.com/GNU-SPORTS/.github/assets/100845256/ce9513e3-4bb4-4283-9d42-c961082edd2b width="200" height="165"> |
 |:-----------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|
 |                                                                 **Front-End(Android)**                                                                 |                                                                 **Front-End(React)**                                                                 |                                                                  **Back-End(Spring)**                                                                  |     
 | [김용혁](https://github.com/younghyeok-k) |   [이준희](https://github.com/juni0914)  |   [조성진](https://github.com/Jorados)     |                 
@@ -143,7 +142,7 @@
 ### 모바일 환경(반응형 디자인)
 | 메인화면 | 커뮤니티 화면 |
 | ------------ | ------------ |
-| ![모바일1](https://github.com/GNU-SPORTS/SPORTS-CLIENT-WEB/assets/100837725/b208b294-f96b-41c0-86dc-98f320b1f1b8)| ![모바일2](https://github.com/GNU-SPORTS/SPORTS-CLIENT-WEB/assets/100837725/1582cebf-b468-4a8e-8d89-27f9e4f07fc5)) |   
+| ![모바일1](https://github.com/GNU-SPORTS/SPORTS-CLIENT-WEB/assets/100837725/b208b294-f96b-41c0-86dc-98f320b1f1b8)| ![모바일2](https://github.com/GNU-SPORTS/SPORTS-CLIENT-WEB/assets/100837725/1582cebf-b468-4a8e-8d89-27f9e4f07fc5) |   
 
 ## 👍 특장점 기술 
 
@@ -197,7 +196,6 @@
 
 - **To Solve**
 
-
 ### 🧑🏻‍💻 백엔드
 <details>
 <summary>
@@ -205,15 +203,76 @@
 </summary>
 <div markdown="3">
 
-- **Problem & Reason**
+- **Problem & Reason**   
+예약 시간을 담당하는 ReservationTime 객체를 어떻게 만들어서 예약시간을 처리해야하는 지에 대해서 많은 고민을 했습니다.   
+왜냐하면, 예약 할때 받아오는 예약 시간대를 구분하기 어려웠기 때문입니다.
 
-- **To Solve**
+- **To Solve**   
+List<> 형태로 Center는 CenterReservation을 가집니다.
+근데 여기서 Center를 Reservation할때 예약 시간을 구분하기 위해서,      
+저는 Enum 타입의 CenterReservation을 생성해서 각각의 시간을 구분할 수 있게 하였습니다.
+```
+@Getter
+@AllArgsConstructor
+public enum ReservingTime {
+    RT1("00:00"),
+    RT2("00:30"),
+    RT3("01:00"),
+    RT4("01:30"),
+    RT5("02:00"),
+    RT6("02:30"),
+    RT7("03:00"),
+    RT8("03:30"),
+    RT9("04:00"),
+    RT10("04:30"),
+    RT11("05:00"),
+    RT12("05:30"),
+    RT13("06:00"),
+    RT14("06:30"),
+    RT15("07:00"),
+    RT16("07:30"),
+    RT17("08:00"),
+    RT18("08:30"),
+    RT19("09:00"),
+    RT20("09:30"),
+    RT21("10:00"),
+    RT22("10:30"),
+    RT23("11:00"),
+    RT24("11:30"),
+    RT25("12:00"),
+    RT26("12:30"),
+    RT27("13:00"),
+    RT28("13:30"),
+    RT29("14:00"),
+    RT30("14:30"),
+    RT31("15:00"),
+    RT32("15:30"),
+    RT33("16:00"),
+    RT34("16:30"),
+    RT35("17:00"),
+    RT36("17:30"),
+    RT37("18:00"),
+    RT38("18:30"),
+    RT39("19:00"),
+    RT40("19:30"),
+    RT41("20:00"),
+    RT42("20:30"),
+    RT43("21:00"),
+    RT44("21:30"),
+    RT45("22:00"),
+    RT46("22:30"),
+    RT47("23:00"),
+    RT48("23:30"),
+    RT49("24:00");
 
-<summary>
-<h3>🛠  트러블 슈팅 2</h3>
-</summary>
-<div markdown="4">
+    private final String time;
 
-- **Problem & Reason**
+    public static ReservingTime findTime(String findTime) {
+        return Arrays.stream(ReservingTime.values())
+                .filter(reservingTime -> reservingTime.getTime().equals(findTime))
+                .collect(Collectors.toList())
+                .get(0);
+    }
+}
+```
 
-- **To Solve**
