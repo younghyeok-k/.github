@@ -1,4 +1,15 @@
 # ⚽ GNU 스포츠 시설 예약 및 커뮤니티 플랫폼  ⚽
+## <b> 🗂️ 목차 </b>
+
+-   ### <b> <a href="#0"> 🧑‍🤝‍🧑 팀원 소개 </a> </b>
+-   ### <b> <a href="#0.5"> 🔗 서비스 소개 </a> </b>
+-   ### <b> <a href="#2">  🛠️ 메인 기술 스택  </a> </b>
+-   ### <b> <a href="#1"> 🔗 Other Repositories & Page </a> </b>
+-   ### <b> <a href="#3"> 👐 데모(결과) </a> </b>
+-   ### <b> <a href="#4"> 👍 특장점 기술  </a> </b>
+-   ### <b> <a href="#5"> 🚀 트러블 슈팅 </a> </b>
+
+
 ### GNU 대학교 내 스포츠 시설 예약 및 사용 방식을 불편함을 해소하고 간편한 스포츠 시설 예약 및 커뮤니케이션 경험을 제공하기 위해 웹 앱으로 개발하였습니다.
 - #### 로그인 및 회원가입: 사용자는 개인 계정을 생성하고 관리하여 플랫폼의 모든 기능을 이용 가능 ####
 - #### 스포츠 시설 예약 및 취소: 사용자는 편리한 인터페이스를 통해 스포츠 시설을 예약하고 필요한 경우 예약을 취소할수 있음 ####
@@ -6,8 +17,14 @@
 - #### 닉네임 변경 및 포인트 충전: 사용자는 닉네임을 변경하거나 포인트를 충전하여 플랫폼의 기능을 보다 편리하게 이용할 수 있음 ####
 - #### 내가 쓴 글과 댓글 관리: 사용자는 작성한 글과 댓글을 한 눈에 확인하고 관리할 수 있어 자신의 활동을 손쉽게 추적 가능. ####
 - #### 현재 위치 날씨 정보: 사용자의 현재 위치를 기반으로 날씨 정보를 제공하여 실내 및 야외 스포츠 활동을 계획하는 데 도움을 줌 ####
+  
 
-## 🧑‍🤝‍🧑 팀원 소개
+
+<h2 id="0">
+	
+## <b>🧑‍🤝‍🧑 팀원 소개</b>
+
+</h2>
 <div align="centered-table">
     <table>
         <tr>
@@ -30,9 +47,11 @@
 
 <br>
 
+<h2 id="2">
+	
+## 🛠️ 메인 기술 스택   
 
-## 🛠️ 메인 기술 스택     
-
+</h2>
 <div align="center">
     <h3>Front-End-Web</h3>
     <div>
@@ -64,7 +83,16 @@
       <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
     </div>
 </div>
+           
+<h2 id="1">
+<b>📚 Other Repositories & Page</b>
+</h2>
 
+-   ### <b> <a href="https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP"> 🔗 Front-End(Android) </a> </b>
+-   ### <b> <a href="https://github.com/orgs/GNU-SPORTS/repositories" > 🔗 Front-End(React) </a> </b>
+-   ### <b> <a href="https://github.com/GNU-SPORTS/SPORTS-SERVER" > 🔗 Back-End(Spring) </a> </b>
+
+<br/>
 
 ## 🗂️ System Architecture
 
@@ -74,9 +102,11 @@
 
 ![image](https://github.com/GNU-SPORTS/.github/assets/100845256/8c3af6a8-6db5-4735-bf0c-12fc52039ad3)
 
-
+<h2 id="3">
+	
 ## 📱Demo - App
 
+</h2>
 ### 로고,로그인,예약 홈,예약 화면
 | 로고 | 로그인 | 예약 홈 | 예약 화면 |
 | ------------ | ------------- |------------- |------------- |
@@ -164,8 +194,10 @@
 | ------------ | ------------ |
 | ![모바일1](https://github.com/GNU-SPORTS/SPORTS-CLIENT-WEB/assets/100837725/b208b294-f96b-41c0-86dc-98f320b1f1b8)| ![모바일2](https://github.com/GNU-SPORTS/SPORTS-CLIENT-WEB/assets/100837725/1582cebf-b468-4a8e-8d89-27f9e4f07fc5) |   
 
+<h2 id="4">
+	
 ## 👍 특장점 기술 
-
+</h2>
 <details>
 <summary>
 <h3>✨현재위치기반의 날씨 정보(안드로이드)</h3>
@@ -197,8 +229,10 @@
     - 
 </div>
 </details>
-
+<h2 id="5">
+	
 ## 🚀 트러블 슈팅
+</h2>
 
 ### 🧑🏻‍💻 안드로이드
 <details>
