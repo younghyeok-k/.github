@@ -1,50 +1,70 @@
-# ⚽ GNU-SPORTS ⚽
-
-저희는 학교 체육시설의 불편한 예약, 사용 방식을 개선하기 위해서   
-
-학교 내 스포츠 시설 예약 및 커뮤티니 시스템을 직접 구현 하였습니다.   
-
-<br>
+# ⚽ GNU 스포츠 시설 예약 및 커뮤니티 플랫폼  ⚽
+### GNU 대학교 내 스포츠 시설 예약 및 사용 방식을 불편함을 해소하고 간편한 스포츠 시설 예약 및 커뮤니케이션 경험을 제공하기 위해 웹 앱으로 개발하였습니다.
+- #### 로그인 및 회원가입: 사용자는 개인 계정을 생성하고 관리하여 플랫폼의 모든 기능을 이용 가능 ####
+- #### 스포츠 시설 예약 및 취소: 사용자는 편리한 인터페이스를 통해 스포츠 시설을 예약하고 필요한 경우 예약을 취소할수 있음 ####
+- #### 커뮤니티 활동: 사용자들은 플랫폼 내에서 글 쓰기, 삭제, 수정, 댓글 쓰기, 삭제 등의 커뮤니티 활동을 통해 스포츠와 관련된 정보와 경험을 공유하고 소통 가능 ####
+- #### 닉네임 변경 및 포인트 충전: 사용자는 닉네임을 변경하거나 포인트를 충전하여 플랫폼의 기능을 보다 편리하게 이용할 수 있음 ####
+- #### 내가 쓴 글과 댓글 관리: 사용자는 작성한 글과 댓글을 한 눈에 확인하고 관리할 수 있어 자신의 활동을 손쉽게 추적 가능. ####
+- #### 현재 위치 날씨 정보: 사용자의 현재 위치를 기반으로 날씨 정보를 제공하여 실내 및 야외 스포츠 활동을 계획하는 데 도움을 줌 ####
 
 ## 🧑‍🤝‍🧑 팀원 소개
-| <img src =https://user-images.githubusercontent.com/67897318/209688971-49212507-71b7-4551-9985-8565d31d24a4.png width="230" height="200"> | <img src =https://user-images.githubusercontent.com/49369306/195608027-5633bd06-1c29-4916-bf75-65567de3b2a5.png width="200" height="165"> | <img src =https://github.com/GNU-SPORTS/.github/assets/100845256/ce9513e3-4bb4-4283-9d42-c961082edd2b width="200" height="165"> |
-|:-----------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|
-|                                                                 **Front-End(Android)**                                                                 |                                                                 **Front-End(React)**                                                                 |                                                                  **Back-End(Spring)**                                                                  |     
-| [김용혁](https://github.com/younghyeok-k) |   [이준희](https://github.com/juni0914)  |   [조성진](https://github.com/Jorados)     |                 
+<div align="centered-table">
+    <table>
+        <tr>
+            <td style="text-align:center;"><img src="https://github.com/GNU-SPORTS/.github/assets/97229292/e4b47807-c1a1-4f03-a604-e665e0b7d2b8.png" width="230" height="200"></td>
+            <td style="text-align:center;"><img src="https://user-images.githubusercontent.com/49369306/195608027-5633bd06-1c29-4916-bf75-65567de3b2a5.png" width="200" height="165"></td>
+            <td style="text-align:center;"><img src="https://github.com/GNU-SPORTS/.github/assets/100845256/ce9513e3-4bb4-4283-9d42-c961082edd2b" width="200" height="165"></td>
+        </tr>
+        <tr>
+            <td style="text-align:center;"><strong>Front-End(Android)</strong></td>
+            <td style="text-align:center;"><strong>Front-End(React)</strong></td>
+            <td style="text-align:center;"><strong>Back-End(Spring)</strong></td>
+        </tr>
+        <tr>
+            <td style="text-align:center;"><a href="https://github.com/younghyeok-k">김용혁</a></td>
+            <td style="text-align:center;"><a href="https://github.com/juni0914">이준희</a></td>
+            <td style="text-align:center;"><a href="https://github.com/Jorados">조성진</a></td>
+        </tr>
+    </table>
+</div>
 
 <br>
+
 
 ## 🛠️ 메인 기술 스택     
 
-### Front-End-Web 
-<div>
-	<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-	<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-	<img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>
-	<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-	<img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
-	<br>
+<div align="center">
+    <h3>Front-End-Web</h3>
+    <div>
+        <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+        <img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>
+        <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+        <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+    </div>
+    <h3>Front-End-App</h3>
+    <div>
+        <img src="https://img.shields.io/badge/Kotlin-7F52FF.svg?&style=for-the-badge&logo=Kotlin&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Android-3DDC84.svg?&style=for-the-badge&logo=Android&logoColor=white"/>
+    </div>
+    <h3>Back-End</h3>
+    <div>
+        <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Java&color=007396&logo=Java&logoColor=FFFFFF&label="/>
+        <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Spring+Boot&color=6DB33F&logo=Spring+Boot&logoColor=FFFFFF&label="/>
+        <img src="https://img.shields.io/static/v1?style=for-the-badge&message=JPA&color=F05032&logo=JPA&logoColor=FFFFFF&label="/>
+        <img src="https://img.shields.io/static/v1?style=for-the-badge&message=MySQL&color=4479A1&logo=MySQL&logoColor=FFFFFF&label="/>
+    </div>
+    <h3>Production & Deploy</h3>
+    <div>
+      <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+    </div>
+     <h3>Collaboration tool</h3>
+    <div>
+      <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+      <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+    </div>
 </div>
 
-### Front-End-App
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF.svg?&style=for-the-badge&logo=Kotlin&logoColor=white)  ![Android](https://img.shields.io/badge/Android-3DDC84.svg?&style=for-the-badge&logo=Android&logoColor=white)            
-
-### Back-End
-![Java](https://img.shields.io/static/v1?style=for-the-badge&message=Java&color=007396&logo=Java&logoColor=FFFFFF&label=)
-![Spring Boot](https://img.shields.io/static/v1?style=for-the-badge&message=Spring+Boot&color=6DB33F&logo=Spring+Boot&logoColor=FFFFFF&label=)
-![JPA](https://img.shields.io/static/v1?style=for-the-badge&message=JPA&color=F05032&logo=JPA&logoColor=FFFFFF&label=)
-![MySQL](https://img.shields.io/static/v1?style=for-the-badge&message=MySQL&color=4479A1&logo=MySQL&logoColor=FFFFFF&label=)
-
-
-### Production & Deploy
-<img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
-
-### Collaboration tool
-<div>
-    <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
-    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
-<div>
-<br/>
 
 ## 🗂️ System Architecture
 
@@ -65,7 +85,7 @@
 ### 주변정보,게시판,날씨,내정보
 | 주변정보 | 게시판 | 날씨 | 내정보 |
 | ------------ | ------------- |------------- |------------- |
-| ![Screenshot_20230814-203607_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/247867cb-4f0b-416a-ba39-18b7bd9a7908)| ![Screenshot_20230814-203614_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/0a91e2ff-12fe-4c18-bcb4-6a86edc1b7a8)|![Screenshot_20230814-203614_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/e88659aa-03f5-478b-9135-c0fb4eff48f4)| ![Screenshot_20230814-203621_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/f8701548-ac26-4518-8479-7989995e8a0a)|
+| ![Screenshot_20230814-203607_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/247867cb-4f0b-416a-ba39-18b7bd9a7908)| ![Screenshot_20230814-203614_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/0a91e2ff-12fe-4c18-bcb4-6a86edc1b7a8)|![Screenshot_20230814-203618_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/893fcd2c-7fc6-4488-9bc4-21f19ba52858)| ![Screenshot_20230814-203621_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/f8701548-ac26-4518-8479-7989995e8a0a)|
 
 ### 글 쓰기,글 정보,글 메뉴바,글 수정
 | 글 쓰기 | 글 정보 | 글 메뉴바 | 글 수정 |
@@ -153,7 +173,7 @@
 <div markdown="1">
 
    - 현재위치기반의 날씨 정보
-   - 스포츠 시설을 예약하기 전 날씨 상황을 알아야 할거 같다는 필요성을 느낌
+   - 사용자의 현재 위치를 기반으로 날씨 정보를 제공하여 실내 및 야외 스포츠 활동을 계획하는 데 도움을 줌
    - 기상청에서 제공하는 단기 예보 API를 통해 현재 위치의 날씨 상황을 알 수 있음
    - 또한 매일 하루를 준비할 때 날씨에 따른 필요한 우산, 기온 별 옷차림, 야외 상황, 뉴스 정보를 알려 줌
 ### 
@@ -253,15 +273,15 @@ private val okHttpClient = OkHttpClient.Builder()
 <div markdown="4">
 
 - **Problem & Reason**
- - 모든 글 정보API를 호출할때 한번에 20개로 제한이 되어있어 페이지를 따로 만들어야하는 낭비가 생김
- - 또한 글 검색을 할때 현재 페이지 글만 검색되는 오류 발견
- - 페이지 오래된 순 최신순 정렬 시 현재 페이지 글만 가능
+  - 모든 글 정보API를 호출할때 한번에 20개로 제한이 되어있어 페이지를 따로 만들어야하는 낭비가 생김
+  - 또한 글 검색을 할때 현재 페이지 글만 검색되는 오류 발견
+  - 페이지 오래된 순 최신순 정렬 시 현재 페이지 글만 가능
 
 - **To Solve**
- - 모든 글 정보API를 사용하지 않고 특정 글 정보API를 이용하여 글을 하나씩 모든 글 번호를 호출하여 RecyclerView로 보여줌
- - 스크롤을 내릴 때마다 글 하나씩 호출하여 계속해서 글을 가져옴
- - 모든 글 정보를 가져와서 page 처리하지 않고 특정 글 가져오는 api를 이용하여 메모리 낭비를 줄임
- - 글 검색시 모든 페이지 글 검색 가능
+  - 모든 글 정보API를 사용하지 않고 특정 글 정보API를 이용하여 글을 하나씩 모든 글 번호를 호출하여 RecyclerView로 보여줌
+  - 스크롤을 내릴 때마다 글 하나씩 호출하여 계속해서 글을 가져옴
+  - 모든 글 정보를 가져와서 page 처리하지 않고 특정 글 가져오는 api를 이용하여 메모리 낭비를 줄임
+  - 글 검색시 모든 페이지 글 검색 가능
 
 PostViewmodel.kt
   ```
@@ -353,6 +373,17 @@ private val launchEditor =
 </details>
 
 ### 🧑🏻‍💻 리액트
+<details>
+<summary>
+<h3>🛠 트러블 슈팅 1</h3>
+<div markdown="3">
+	
+- **Problem & Reason**   
+
+
+- **To Solve**
+</div> 
+</details>
 
 ### 🧑🏻‍💻 백엔드
 <details>
@@ -362,13 +393,13 @@ private val launchEditor =
 <div markdown="3">
 
 - **Problem & Reason**   
-예약 시간을 담당하는 ReservationTime 객체를 어떻게 만들어서 예약시간을 처리해야하는 지에 대해서 많은 고민을 했습니다.   
-왜냐하면, 예약 할때 받아오는 예약 시간대를 구분하기 어려웠기 때문입니다.
+  - 예약 시간을 담당하는 ReservationTime 객체를 어떻게 만들어서 예약시간을 처리해야하는 지에 대해서 많은 고민을 했습니다.   
+  - 왜냐하면, 예약 할때 받아오는 예약 시간대를 구분하기 어려웠기 때문입니다.
 
 - **To Solve**   
-List<> 형태로 Center는 CenterReservation을 가집니다.
-근데 여기서 Center를 Reservation할때 예약 시간을 구분하기 위해서,      
-저는 Enum 타입의 CenterReservation을 생성해서 각각의 시간을 구분할 수 있게 하였습니다.
+  - List<> 형태로 Center는 CenterReservation을 가집니다.
+  - 근데 여기서 Center를 Reservation할때 예약 시간을 구분하기 위해서,      
+  - 저는 Enum 타입의 CenterReservation을 생성해서 각각의 시간을 구분할 수 있게 하였습니다.
 ```
 @Getter
 @AllArgsConstructor
