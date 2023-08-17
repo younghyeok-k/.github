@@ -28,7 +28,7 @@
 <div align="centered-table">
     <table>
         <tr>
-            <td style="text-align:center;"><img src="https://github.com/GNU-SPORTS/.github/assets/97229292/e4b47807-c1a1-4f03-a604-e665e0b7d2b8.png" width="230" height="200"></td>
+            <td style="text-align:center;"><img src="https://github.com/GNU-SPORTS/.github/assets/97229292/e4b47807-c1a1-4f03-a604-e665e0b7d2b8.png" width="200" height="165"></td>
             <td style="text-align:center;"><img src="https://user-images.githubusercontent.com/49369306/195608027-5633bd06-1c29-4916-bf75-65567de3b2a5.png" width="200" height="165"></td>
             <td style="text-align:center;"><img src="https://github.com/GNU-SPORTS/.github/assets/100845256/ce9513e3-4bb4-4283-9d42-c961082edd2b" width="200" height="165"></td>
         </tr>
