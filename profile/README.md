@@ -95,7 +95,7 @@
 </h2>
 
 -   ### <b> <a href="https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP"> 🔗 Front-End(Android) </a> </b>
--   ### <b> <a href="https://github.com/orgs/GNU-SPORTS/SPORTS-CLIENT-WEB" > 🔗 Front-End(React) </a> </b>
+-   ### <b> <a href="https://github.com/GNU-SPORTS/SPORTS-CLIENT-WEB" > 🔗 Front-End(React) </a> </b>
 -   ### <b> <a href="https://github.com/GNU-SPORTS/SPORTS-SERVER" > 🔗 Back-End(Spring) </a> </b>
 
 <br/>
@@ -194,7 +194,7 @@
 ### 📱 모바일 환경(반응형 디자인) 
 | 메인화면 | 커뮤니티 화면 |
 | ------------ | ------------ |
-| ![모바일1](https://github.com/GNU-SPORTS/SPORTS-CLIENT-WEB/assets/100837725/b208b294-f96b-41c0-86dc-98f320b1f1b8)| ![모바일2](https://github.com/GNU-SPORTS/SPORTS-CLIENT-WEB/assets/100837725/1582cebf-b468-4a8e-8d89-27f9e4f07fc5) |
+| ![모바일1](https://github.com/juni0914/caps2023_front/assets/100837725/4e3f332c-97eb-40c1-b19c-3d2deadacc35)| ![모바일2](https://github.com/juni0914/caps2023_front/assets/100837725/0cc4ac1d-02d8-4471-a3d0-16f8d9a3abb8) |
 <h2 id="4">
 	
 ## 👍 특장점 기술 
