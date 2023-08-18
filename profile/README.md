@@ -8,7 +8,6 @@
 -   ### <b> <a href="#0"> 🧑‍🤝‍🧑 팀원 소개 </a> </b>
 -   ### <b> <a href="#0.5"> 😄 서비스 소개 </a> </b>
 -   ### <b> <a href="#2">  🛠️ 메인 기술 스택  </a> </b>
--   ### <b> <a href="#1"> 🔗 Other Repositories & Page </a> </b>
 -   ### <b> <a href="#3"> 👐 데모(결과) </a> </b>
 -   ### <b> <a href="#4"> 👍 특장점 기술  </a> </b>
 -   ### <b> <a href="#5"> 🚀 트러블 슈팅 </a> </b>
@@ -39,6 +38,13 @@
     </table>
 </div>
 
+<h2 id="1">
+<b>📚 Other Repositories & Page</b>
+</h2>
+
+-   ### <b> <a href="https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP"> 🔗 Front-End(Android) </a> </b>
+-   ### <b> <a href="https://github.com/GNU-SPORTS/SPORTS-CLIENT-WEB" > 🔗 Front-End(React) </a> </b>
+-   ### <b> <a href="https://github.com/GNU-SPORTS/SPORTS-SERVER" > 🔗 Back-End(Spring) </a> </b>
 
 
 <h2 id="0.5">
@@ -90,15 +96,7 @@
     </div>
 </div>
            
-<h2 id="1">
-<b>📚 Other Repositories & Page</b>
-</h2>
 
--   ### <b> <a href="https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP"> 🔗 Front-End(Android) </a> </b>
--   ### <b> <a href="https://github.com/GNU-SPORTS/SPORTS-CLIENT-WEB" > 🔗 Front-End(React) </a> </b>
--   ### <b> <a href="https://github.com/GNU-SPORTS/SPORTS-SERVER" > 🔗 Back-End(Spring) </a> </b>
-
-<br/>
 
 ## 🗂️ System Architecture
 
@@ -107,13 +105,15 @@
 ## 💾 ERD Structure
 
 ![image](https://github.com/GNU-SPORTS/.github/assets/100845256/8c3af6a8-6db5-4735-bf0c-12fc52039ad3)
-
+<details>
+<summary>
 <h2 id="3">
 	
-## 📱Demo - App
-
+## 📱Demo - App 
 </h2>
-
+</summary>
+<div markdown="1">
+	
 ### 로고, 로그인, 예약 홈, 예약 화면
 | 로고 | 로그인 | 예약 홈 | 예약 화면 |
 | ------------ | ------------- |------------- |------------- |
@@ -139,10 +139,19 @@
 | ------------ | ------------- |------------- |
 | ![Screenshot_20230814-203937_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/d841e47d-5eaf-4b90-bb64-e5c92975fc66)| ![Screenshot_20230814-203752_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/0ea45a27-b3a4-4726-be21-db0ab0d8f5fd)|![Screenshot_20230814-204112_test](https://github.com/GNU-SPORTS/SPORTS-CLIENT-APP/assets/97229292/6ce83cf6-3425-4bd2-9127-d285ffe29067)|
 
-<br>
+</div>
+</details>
 
+
+<details>
+<summary>
+<h2 id="3.5">
+	
 ## 🖥Demo - Web
-
+</h2>
+</summary>
+<div markdown="1">
+	
 ### - 로그인, 회원가입
 | 로그인 | 회원가입 |
 | ------------ | ------------- |
@@ -195,6 +204,11 @@
 | 메인화면 | 커뮤니티 화면 |
 | ------------ | ------------ |
 | ![모바일1](https://github.com/juni0914/caps2023_front/assets/100837725/4e3f332c-97eb-40c1-b19c-3d2deadacc35)| ![모바일2](https://github.com/juni0914/caps2023_front/assets/100837725/0cc4ac1d-02d8-4471-a3d0-16f8d9a3abb8) |
+
+</div>
+</details>
+
+ 
 <h2 id="4">
 	
 ## 👍 특장점 기술 
@@ -217,19 +231,7 @@
 </div>
 </details>
 
-<details>
-<summary>
-<h3>✨ 기술 1</h3>
-</summary>
-<div markdown="1">
 
-- 기술 1
-    - 
-
-- 기술 2
-    - 
-</div>
-</details>
 <h2 id="5">
 	
 ## 🚀 트러블 슈팅
@@ -238,7 +240,7 @@
 ### 🧑🏻‍💻 안드로이드
 <details>
 <summary>
-<h3>🛠 트러블 슈팅 1</h3>
+<h3>🛠 트러블 슈팅 </h3>
 </summary>
 <div markdown="3">
 
@@ -298,10 +300,10 @@ private val okHttpClient = OkHttpClient.Builder()
 
 ```
 </div>
-</details>
 
 
-<details>
+
+
 <summary>
 <h3>🛠  트러블 슈팅 2</h3>
 </summary>
@@ -410,7 +412,7 @@ private val launchEditor =
 ### 🧑🏻‍💻 리액트
 <details>
 <summary>
-<h3>🛠 트러블 슈팅 1</h3>
+<h3>🛠 트러블 슈팅 </h3>
 </summary>
 <div markdown="4">
   
@@ -477,10 +479,10 @@ function generateReservationButtons() {
 
 ```
 </div>
-</details>
 
 
-<details>
+
+
 <summary>
 <h3>🛠  트러블 슈팅 2</h3>
 </summary>
@@ -514,8 +516,8 @@ const updateReservationData = (centerId, reservationId) => {
 };
 ```
 </div>
-</details>
-<details>
+
+
 <summary>
 <h3>🛠  트러블 슈팅 3</h3>
 </summary>
@@ -551,7 +553,7 @@ const handleKeyPress = (event) => {      // 로그인 버튼을 눌렀을 때 �
 ### 🧑🏻‍💻 백엔드
 <details>
 <summary>
-<h3>🛠 트러블 슈팅 1</h3>
+<h3>🛠 트러블 슈팅 </h3>
 </summary>
 <div markdown="4">
 
@@ -627,4 +629,4 @@ public enum ReservingTime {
     }
 }
 ```
-
+</details>
