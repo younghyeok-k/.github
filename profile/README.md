@@ -105,12 +105,15 @@
 ## 💾 ERD Structure
 
 ![image](https://github.com/GNU-SPORTS/.github/assets/100845256/8c3af6a8-6db5-4735-bf0c-12fc52039ad3)
-<details>
-<summary>
 <h2 id="3">
 	
-## 📱Demo - App 
+## <b>👐 데모(결과)</b>
 </h2>
+<details>
+<summary>
+	
+## 📱Demo - App 
+
 </summary>
 <div markdown="1">
 	
